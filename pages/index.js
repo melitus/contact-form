@@ -15,8 +15,16 @@ export default function Home() {
         <h4>Contact Information</h4>
           <p>text</p>
           <div className="icon-text">
-            <i className="icon"></i>
-            <span>text</span>
+             <i class="fa fa-phone" aria-hidden="true"></i>
+            <span>+2348061329356</span>
+          </div>
+          <div className="icon-text">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <span>asmelitus@gmail.com</span>
+          </div>
+          <div className="icon-text">
+             <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <span>Lagos, Nigeria</span>
           </div>
           <div className="social-media">
            <a href="#" className="icon-circle">
