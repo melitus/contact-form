@@ -20,19 +20,52 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    h4{
-        font-size: 2rem;
-        font-weight: 500;
-        margin-top: 0;
+    h4 {
+      font-size: 2rem;
+      font-weight: 500;
+      margin: 0;
     }
-    .icon-text{
-        .fa{
-            font-size: 2.2rem;
+    p {
+      font-size: 1.2rem;
+      color: rgba(255, 255, 255, 0.6);
+      font-weight: 300;
+      margin-bottom: 2rem;
+    }
+    .icon-text {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 2rem;
+      .fa {
+        flex: 0 0 20px;
+        font-size: 1.8rem;
+        margin-right: 2rem;
+        background: #05f7ff;
+      }
+      span {
+        font-size: 1.3rem;
+        font-weight: 300;
+      }
+    }
+    .social-media {
+      display: flex;
+      width: 50%;
+      justify-content: space-between;
+      .icon-circle {
+        flex: 0 1 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        border-radius: 50%;
+        transition: .3s all ease-in-out;
+        &:hover {
+          background: #05f7ff;
         }
-        span{
-            font-size: 1.3rem;
-            font-weight: 300;
+        .fa {
+          font-size: 25px;
         }
+      }
     }
   }
 }

@@ -13,7 +13,7 @@ export default function Home() {
       <div id="contact-container">
         <div className="contact-info">
         <h4>Contact Information</h4>
-          <p>text</p>
+          <p>Fill up the form and our team will get back to you in the next 24hours</p>
           <div className="icon-text">
              <i class="fa fa-phone" aria-hidden="true"></i>
             <span>+2348061329356</span>
@@ -28,7 +28,16 @@ export default function Home() {
           </div>
           <div className="social-media">
            <a href="#" className="icon-circle">
-             <i className="icon"></i>
+             <i class="fa fa-facebook-official" aria-hidden="true"></i>
+           </a>
+            <a href="#" className="icon-circle">
+             <i class="fa fa-twitter" aria-hidden="true"></i>
+           </a>
+            <a href="#" className="icon-circle">
+             <i class="fa fa-instagram" aria-hidden="true"></i>
+           </a>
+            <a href="#" className="icon-circle">
+             <i class="fa fa-youtube" aria-hidden="true"></i>
            </a>
           </div>
           </div>
