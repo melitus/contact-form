@@ -4,11 +4,25 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://images.pexels.com/photos/4220967/pexels-photo-4220967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
 }
-
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+p.sub-title {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+}
 #contact-container {
   display: flex;
   width: 1200px;
+  border-radius: 15px;
   overflow: hidden;
   padding: 10px;
   background: white;
@@ -58,7 +72,7 @@ body {
         align-items: center;
         height: 40px;
         border-radius: 50%;
-        transition: .3s all ease-in-out;
+        transition: 0.3s all ease-in-out;
         &:hover {
           background: #05f7ff;
         }
